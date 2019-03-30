@@ -19,11 +19,4 @@ The sequencing of put() and get() call is handled by two semaphores: semProd and
 4.Also, notice that semCon is initialized with no available permits. This ensures that put( ) executes first. The ability to set the initial synchronization state is one of the more powerful aspects of a semaphore.
 
 
-# To compile the file: 
-open your terminal and type
-$ javac filename.java
-
-# To run the generated class file, use
-$ java filename
-
 
